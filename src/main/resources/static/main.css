@@ -1,0 +1,147 @@
+ *{
+    margin: auto;
+    padding: auto; 
+
+}
+body{
+     display: flex;
+    background-color: rgb(53, 53, 53);
+
+     overflow: hidden; 
+ 
+
+  }
+
+label .line{
+   content: '';
+
+
+   width: 10px;
+   height: 320px;
+   top: 30px;
+   left: 22px;
+   
+
+   background: rgb(255, 255, 255);
+    box-shadow: inset 0 0 7px #000000; 
+
+}
+
+label .circle{
+    width: 200px;
+    height: 200px;
+    top: 30px;
+    left: 22px;
+    
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px black;
+   
+   
+    box-shadow: inset 0 0 50px #000000; 
+    
+    background: rgb(229, 255, 0);
+}
+.inner{
+    position: relative;
+    
+    top: 90px;
+    left: 20px;
+    font-family: serif;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    transform: translate(-70%, -90%);
+    color: transparent;
+    background: black;
+            -webkit-background-clip: text;
+            text-shadow: 2px 5px 5px 
+                rgba(255, 255, 255, 0.438);
+   
+      
+    
+  
+}
+.invis{
+    opacity: 0%;
+}
+.inputnick{
+    position:  relative;
+    right: 40px;
+    width: 220px;
+    height: 50px;
+    top: 10px;
+    box-shadow: 2px 2px 0px black;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+#chat{
+    margin-top: 100px;
+    background: rgba(83, 83, 83, 0);
+    width: 700px;
+    height: 700px;
+    border-radius: 0 50px 50px 0;
+    border: solid 2px rgb(162, 0, 255);
+   
+    box-shadow: 20px 20px 20px black;
+    
+
+
+    
+}
+
+#message{
+    margin-top: 600px;
+    margin-left: 10px;
+    width: 500px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 30px;
+
+    
+
+}
+.labelbar{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0;
+    background: rgb(3, 3, 3);
+    width: 700px;
+    height: 700px;
+    border-radius: 0 50px 50px 0;
+   
+
+}
+ul {
+    list-style-type: none;
+}
+ .pms{
+     position: absolute;
+     margin-top: 10px;
+     margin-left: 10px;
+     border-radius: 20px;
+     color: rgb(140, 0, 255);
+     background: rgb(0, 0, 0);
+     border: solid 1px rgb(212, 0, 255);
+     font-size: 20px;
+     overflow: auto;
+     overflow-y: scroll;
+    
+     
+       
+    
+    width: 650px;
+    height: 600px;
+    
+
+}
+.send{
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: large;
+    background-color: rgb(140, 0, 255);
+}
+

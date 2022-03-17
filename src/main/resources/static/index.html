@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>Chatty</title>
+ 
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <!-- LOGIN -->
+<!--  
+        <div id="page">
+    <form id="user" name="user">
+      <label>
+        <div class="line"></div>
+        <div class="circle"> <span class="inner"> Join Chatty!</span></div>
+
+        <button type="submit" class="invis" >Start Chatty</button>
+
+      </label>
+
+      <input type="text" id="name" class="inputnick"  autocomplete="off" placeholder="Your Nickname">
+
+    </form>
+  </div>  -->
+
+  <div id="chat" class="hiddn">
+       
+      
+     <div class="onlinebox"></div> 
+     
+
+     
+         <label class="labelbar">
+          <label class="pms"> 
+             <ul id="messageArea">
+             
+         
+           
+              </ul> 
+          </label> 
+       
+        
+         <form id="messageForm" name="messageForm">
+        
+           <input type="text" id="message"  />
+           <button type="submit" class="send">Send</button>
+                  
+        </form>
+      
+
+      </label>
+        
+      
+ 
+</div>
+
+
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+<script src="/main1.js"></script> 
+</body>
+</html>
